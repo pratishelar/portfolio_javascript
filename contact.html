@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pratish Portfolio</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h3><a href="index.html">Pratish Portfolio</a></h3>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </nav>
+    </header>
+ 
+    <section class="hero">
+        <div class="background-image" ></div>
+        <h1>Contact</h1>
+        <h3>UI/UX Designer</h3>
+        <a href="#contact" class="btn">Contact Me</a>
+        <div class="arrow-down"></div>
+    </section>
+    
+<div id="map"></div>
+
+
+    <div class="container1" id="contact">
+        
+        <form>
+            <ul class="flex-outer">
+                <li>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" placeholder="Enter your first name here">
+                </li>
+                <li>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Enter your last name here">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter your email here" onblur="checkEmail()" >
+                </li>
+                <li>
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone here" onblur="checkphone()">
+                </li>
+                <li>
+                    <label for="message">Message</label>
+                    <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+                    
+                </li>
+                <br>
+                <li>
+                    <button type="" id="submit">Submit</button>
+                </li>
+            </ul>
+        </form>
+    </div>
+
+	<footer>
+
+        <p>
+            copyright &copy; <span id="currentDate"></span>
+        </p>
+        <a href="https://www.facebook.com/pratish.shelar?ref=bookmarks"><p>Go to my Facebook page</p></a>
+		
+	</footer>
+<script src="assets/js/script.js"></script>
+    <script src="assets/js/maps.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3p919Etdns3ZhYPRWDuI7JoA5PcNiVaQ&callback=initMap"></script>
+</body>
+
+</html>

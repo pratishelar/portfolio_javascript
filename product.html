@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pratish Portfolio</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h3><a href="index.html">Pratish Portfolio</a></h3>
+        <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </nav>
+    </header>
+
+
+    <section class="hero">
+        <div class="background-image"></div>
+        <h1>Services</h1>
+        <h3>UI/UX Designer</h3>
+        <a href="#product" class="btn">See Services</a>
+        <div class="arrow-down"></div>
+    </section>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Login Before purchase</p><a href="login.html"><button> Login</button></a>
+        </div>
+
+    </div>
+    <div class="centered" id="product">
+
+        <main class="cards">
+
+            <article class="card">
+                <a href="#">
+                    <figure class="thumbnail">
+                        <img class="img" src="assets/img/web.jpg">
+                    </figure>
+                    <div class="card-content">
+                        <h2 class="h2">Website Design</h1>
+                            <p>Whether its a One Page website or a full featured Ecommerce, Business, Real Estate, Restaurant or Corporate website, the focus on quality and individuality is never compromised.</p>
+                            <button type="button" id="myBtn">Click Me!</button>
+                    </div>
+                    <!-- .card-content -->
+                </a>
+            </article>
+            <!-- .card -->
+
+            <article class="card">
+                <a href="#">
+                    <figure class="thumbnail">
+                        <img class="img" src="assets/img/graphics.jpg">
+                    </figure>
+                    <div class="card-content">
+                        <h2 class="h2">Graphics Design</h2>
+                        <p>I can take care of your branding need like Letterheads, Business Cards, Print Brochures, Powerpoint Presentation, Flyers, and items that are essential to define your brand.</p>
+
+                    </div>
+                    <!-- .card-content -->
+                </a>
+            </article>
+            <!-- .card -->
+
+            <article class="card">
+                <a href="#">
+                    <figure class="thumbnail">
+                        <img class="img" src="assets/img/ui.jpg">
+                    </figure>
+                    <div class="card-content">
+                        <h2 class="h2">UI/UX DESIGN</h2>
+                        <p> There’s no style over substance here. I bring together form and the function to create something that looks good and performs brilliantly. Simple.</p>
+                    </div>
+                    <!-- .card-content -->
+                </a>
+            </article>
+            <!-- .card -->
+
+            <article class="card">
+                <a href="#">
+                    <figure class="thumbnail">
+                        <img class="img" src="assets/img/webdevelopment.jpg">
+                    </figure>
+                    <div class="card-content">
+                        <h2 class="h2">Web Development</h2>
+                        <p> So now you got a good design and look for your website or application, making it fully functional with the latest technology is mandatory aspect.</p>
+                    </div>
+                    <!-- .card-content -->
+                </a>
+            </article>
+            <!-- .card -->
+
+            <article class="card">
+                <a href="#">
+                    <figure class="thumbnail">
+                        <img class="img" src="assets/img/cms.jpg">
+                    </figure>
+                    <div class="card-content">
+                        <h2 class="h2">Flexible Content Management System</h2>
+                        <p>No more relying on a web developer to make edits to your site! You have the power to edit your text, upload images, create new pages, change your navigation, and even manage users — whenever and wherever you want.</p>
+
+                    </div>
+                    <!-- .card-content -->
+                </a>
+            </article>
+            <!-- .card -->
+
+            <article class="card">
+                <a href="#">
+                    <figure class="thumbnail">
+                        <img class="img" src="assets/img/ecom.jpg">
+                    </figure>
+                    <div class="card-content">
+                        <h2 class="h2">Powerful e-Commerce Solution</h2>
+                        <p>Whether you’re a small business owner selling handmade arts and crafts or a large online retailer with thousands of products, we have you covered.</p>
+                    </div>
+                    <!-- .card-content -->
+                </a>
+            </article>
+            <!-- .card -->
+
+            <article class="card">
+                <a href="#">
+                    <figure class="thumbnail">
+                        <img class="img" src="assets/img/optimizer.png">
+                    </figure>
+                    <div class="card-content">
+                        <h2 class="h2">Google Optimization</h2>
+                        <p>More and more people are turning to search engines to help connect them to local businesses. Google searches are continually on the rise, while use of tools like the Yellow Pages is in rapid decline.</p>
+
+                    </div>
+                    <!-- .card-content -->
+                </a>
+            </article>
+            <!-- .card -->
+
+        </main>
+        <!-- .cards -->
+
+    </div>
+    <!-- .centered -->
+
+<!--
+    <div class="switchdiv" id="tst">
+        <select id="selecttheme">
+    <option value="demotbl">Theme 1</option>
+    <option value="demotbl2">Theme 2</option>
+    <option value="demotbl3">Theme 3</option>
+    <option value="demotbl">Default Theme</option>
+</select>
+        <button onclick="switchfunction()">Apply Theme</button>
+    </div>
+    <br>
+
+    <table class="demotbl" id="switchtable">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>static Website</td>
+            <td>100 CAD per page</td>
+            <td>5 hr per page</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Logo Design</td>
+            <td>100 CAD</td>
+            <td>5 hr per logos</td>
+            <tr>
+                <td>3</td>
+                <td>Dynamic Website </td>
+                <td>500 CAD</td>
+                <td>10 hrs per page</td>
+            </tr>
+    </table>
+-->
+
+
+    <footer>
+
+        <p>
+            copyright &copy; <span id="currentDate"></span>
+        </p>
+        <a href="https://www.facebook.com/pratish.shelar?ref=bookmarks">
+            <p>Go to my Facebook page</p>
+        </a>
+
+    </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
